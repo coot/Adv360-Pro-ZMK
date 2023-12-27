@@ -20,6 +20,15 @@
       };
     };
 
+  combos {
+    compatible = "zmk,combos";
+    combo_pl_a {
+      timeout-ms = <50>;
+      key-positions = <29 56>;
+      bindings = <&kp a>;
+    };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
