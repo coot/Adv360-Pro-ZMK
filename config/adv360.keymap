@@ -20,6 +20,70 @@
       };
     };
 
+  combos {
+    compatible = "zmk,combos";
+    // ą = a↑
+    combo_pl_a {
+      timeout-ms = <50>;
+      key-positions = <29 71>;
+      bindings = <&kp RC(A)>;
+    };
+    // ć = c↑
+    combo_pl_c {
+      timeout-ms = <50>;
+      key-positions = <49 71>;
+      bindings = <&kp RC(C)>;
+    };
+    // ę = e↑
+    combo_pl_e {
+      timeout-ms = <50>;
+      key-positions = <17 71>;
+      bindings = <&kp RC(E)>;
+    };
+    // ł = l→
+    combo_pl_l {
+      timeout-ms = <50>;
+      key-positions = <43 64>;
+      bindings = <&kp RC(L)>;
+    };
+    // ń = n→
+    combo_pl_n {
+      timeout-ms = <50>;
+      key-positions = <54 64>;
+      bindings = <&kp RC(N)>;
+    };
+    // ó = o→
+    combo_pl_o {
+      timeout-ms = <50>;
+      key-positions = <25 64>;
+      bindings = <&kp RC(O)>;
+    };
+    // ś = s↑
+    combo_pl_s {
+      timeout-ms = <50>;
+      key-positions = <30 71>;
+      bindings = <&kp RC(S)>;
+    };
+    // ż = z↑
+    combo_pl_z1 {
+      timeout-ms = <50>;
+      key-positions = <47 71>;
+      bindings = <&kp RC(Z)>;
+    };
+    // ź = x↑ (BUG?)
+    combo_pl_z2 {
+      timeout-ms = <50>;
+      key-positions = <48 71>;
+      bindings = <&kp RC(X)>;
+    };
+    // ź = z↓
+    combo_pl_z3 {
+      timeout-ms = <50>;
+      key-positions = <47 72>;
+      bindings = <&kp RC(X)>;
+    };
+  };
+
   keymap {
     compatible = "zmk,keymap";
 
